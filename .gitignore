@@ -1,6 +1,9 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # dependencies
+node_modules/
+
+# dependencies
 /node_modules
 /package-lock.json
 /.pnp
@@ -16,6 +19,7 @@
 /build
 
 # misc
+.env
 .DS_Store
 .env.local
 .env.development.local
@@ -29,4 +33,3 @@ yarn-error.log*
 
 ./public/config.js
 .package.json
-# ./src/index.js

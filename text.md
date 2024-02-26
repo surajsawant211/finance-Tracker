@@ -1,9 +1,15 @@
 -- first we created folder of project 
+
 -- then we divide a project  mvc pattern folders structure according to the requirements.
+
 -- create server.js file in a root folder
+
 -- then we initialize the package using terminal command => npm init -y  it will create package.json file
+
 -- the package.json file will be generated there will a object called scripts which helps to run application on given command
+
 -- we have to install some dpendencies to run the project like 
+
 express => for rest apis,
 colors => us eto style node consoles, 
 morgan => this is used to check when url hits how response is getting  to check status,

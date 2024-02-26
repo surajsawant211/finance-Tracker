@@ -20,7 +20,7 @@ bodyparser => use to send /parse json data from client to server
 -- then use mongo DB for database connection signup mongodb then create cluster if using first time. the browse collection and create database after creating database connect to mongo db compass based on ur created URL.
 
 -- URL gets from the copass connection copy and paste that url in .env file 
-MONG_URL :- mongodb+srv://suraj:suraj9664@cluster0.oei1xko.mongodb.net/financeTrackerApp
+MONG_URL :- mongodb+srv://<username>:<password>@cluster0.oei1xko.mongodb.net/financeTrackerApp
 
 -- CREATE FILE in config folder conectDb.js for establishing connection from mongodb database for that install npm i mongoose
 
